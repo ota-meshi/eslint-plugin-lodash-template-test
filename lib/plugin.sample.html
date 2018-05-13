@@ -1,0 +1,14 @@
+<% /* global id, ii, profile_image_url, from_user, text, users */ %>
+<div id="<%= id %>" class="<%= ii % 2 === 1 ? ' even' : '' %>"><!-- eslint-disable-line -->
+  <div class="grid_1 alpha right">
+    <!-- eslint-disable-next-line camelcase -->
+    <img class="righted" src="<%= profile_image_url %>"/>
+  </div>
+  <div class="grid_6 omega contents">
+    <p><b><a href="/<%= from_user %>"><%= from_user %></a>:</b> <%= text %></p>
+  </div>
+</div>
+
+<% for (let i = 0; i < users.length; i++) { %>
+  <li><a href="<%= users[i].url %>"><%= users[i].name %></a></li>
+<% } %>
