@@ -13,6 +13,15 @@ module.exports = {
   rules: {
     // override/add rules settings here, such as:
     // 'lodash-template/no-warning-html-comments': 'error'
-    'multiline-ternary': ["error", 'always-multiline']
-  }
+    'multiline-ternary': ["error", 'always-multiline'],
+    "lodash-template/plugin-option": [2, {
+        ignoreRules: [
+            'no-undef',
+            'vars-on-top',
+            'no-magic-numbers',
+            'id-length',
+            'no-plusplus',
+        ],
+    }],
+  },
 }

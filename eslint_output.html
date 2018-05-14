@@ -91,7 +91,7 @@
         <div id="overview" class="bg-2">
             <h1>ESLint Report</h1>
             <div>
-                <span>40 problems (40 errors, 0 warnings)</span> - Generated on Mon May 14 2018 15:27:18 GMT+0900 (WIT)
+                <span>19 problems (19 errors, 0 warnings)</span> - Generated on Mon May 14 2018 15:40:40 GMT+0900 (WIT)
             </div>
         </div>
         <table>
@@ -99,7 +99,7 @@
                 <tr class="bg-2" data-group="f-0">
     <th colspan="4">
         [+] /Users/yosuke/git/eslint-plugin-lodash-template-test/lib/plugin.sample.html
-        <span>5 problems (5 errors, 0 warnings)</span>
+        <span>3 problems (3 errors, 0 warnings)</span>
     </th>
 </tr>
 <tr style="display:none" class="f-0">
@@ -129,39 +129,12 @@
     </td>
 </tr>
 
-<tr style="display:none" class="f-0">
-    <td>12:13</td>
-    <td class="clr-2">Error</td>
-    <td>Identifier name &#39;i&#39; is too short (&lt; 2).</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/id-length" target="_blank">id-length</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-0">
-    <td>12:38</td>
-    <td class="clr-2">Error</td>
-    <td>Unary operator &#39;++&#39; used.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-plusplus" target="_blank">no-plusplus</a>
-    </td>
-</tr>
-
 <tr class="bg-2" data-group="f-1">
     <th colspan="4">
         [+] /Users/yosuke/git/eslint-plugin-lodash-template-test/lib/sample.error.html
-        <span>27 problems (27 errors, 0 warnings)</span>
+        <span>12 problems (12 errors, 0 warnings)</span>
     </th>
 </tr>
-<tr style="display:none" class="f-1">
-    <td>1:14</td>
-    <td class="clr-2">Error</td>
-    <td>&#39;id&#39; is not defined.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-undef" target="_blank">no-undef</a>
-    </td>
-</tr>
-
 <tr style="display:none" class="f-1">
     <td>1:32</td>
     <td class="clr-2">Error</td>
@@ -174,9 +147,9 @@
 <tr style="display:none" class="f-1">
     <td>1:33</td>
     <td class="clr-2">Error</td>
-    <td>Ternary operator used.</td>
+    <td>&#39;i&#39; was used before it was defined.</td>
     <td>
-        <a href="https://eslint.org/docs/rules/no-ternary" target="_blank">no-ternary</a>
+        <a href="https://eslint.org/docs/rules/no-use-before-define" target="_blank">no-use-before-define</a>
     </td>
 </tr>
 
@@ -192,18 +165,9 @@
 <tr style="display:none" class="f-1">
     <td>1:33</td>
     <td class="clr-2">Error</td>
-    <td>&#39;i&#39; was used before it was defined.</td>
+    <td>Ternary operator used.</td>
     <td>
-        <a href="https://eslint.org/docs/rules/no-use-before-define" target="_blank">no-use-before-define</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>1:37</td>
-    <td class="clr-2">Error</td>
-    <td>No magic number: 2.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-magic-numbers" target="_blank">no-magic-numbers</a>
+        <a href="https://eslint.org/docs/rules/no-ternary" target="_blank">no-ternary</a>
     </td>
 </tr>
 
@@ -217,20 +181,11 @@
 </tr>
 
 <tr style="display:none" class="f-1">
-    <td>1:42</td>
+    <td>1:53</td>
     <td class="clr-2">Error</td>
-    <td>No magic number: 1.</td>
+    <td>Infix operators must be spaced.</td>
     <td>
-        <a href="https://eslint.org/docs/rules/no-magic-numbers" target="_blank">no-magic-numbers</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>3:35</td>
-    <td class="clr-2">Error</td>
-    <td>&#39;profile_image_url&#39; is not defined.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-undef" target="_blank">no-undef</a>
+        <a href="https://eslint.org/docs/rules/space-infix-ops" target="_blank">space-infix-ops</a>
     </td>
 </tr>
 
@@ -244,25 +199,7 @@
 </tr>
 
 <tr style="display:none" class="f-1">
-    <td>6:21</td>
-    <td class="clr-2">Error</td>
-    <td>Expected 1 space after &#39;&lt;%=&#39;, but no spaces found.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/lodash-template/template-tag-spacing" target="_blank">lodash-template/template-tag-spacing</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>6:24</td>
-    <td class="clr-2">Error</td>
-    <td>&#39;from_user&#39; is not defined.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-undef" target="_blank">no-undef</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>6:24</td>
+    <td>6:25</td>
     <td class="clr-2">Error</td>
     <td>Identifier &#39;from_user&#39; is not in camel case.</td>
     <td>
@@ -271,38 +208,11 @@
 </tr>
 
 <tr style="display:none" class="f-1">
-    <td>6:33</td>
-    <td class="clr-2">Error</td>
-    <td>Expected 1 space before &#39;%&gt;&#39;, but no spaces found.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/lodash-template/template-tag-spacing" target="_blank">lodash-template/template-tag-spacing</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>6:41</td>
-    <td class="clr-2">Error</td>
-    <td>&#39;from_user&#39; is not defined.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-undef" target="_blank">no-undef</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>6:41</td>
+    <td>6:43</td>
     <td class="clr-2">Error</td>
     <td>Identifier &#39;from_user&#39; is not in camel case.</td>
     <td>
         <a href="https://eslint.org/docs/rules/camelcase" target="_blank">camelcase</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>6:67</td>
-    <td class="clr-2">Error</td>
-    <td>&#39;text&#39; is not defined.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-undef" target="_blank">no-undef</a>
     </td>
 </tr>
 
@@ -318,45 +228,9 @@
 <tr style="display:none" class="f-1">
     <td>10:10</td>
     <td class="clr-2">Error</td>
-    <td>All &#39;var&#39; declarations must be at the top of the function scope.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/vars-on-top" target="_blank">vars-on-top</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>10:10</td>
-    <td class="clr-2">Error</td>
     <td>Unexpected var, use let or const instead.</td>
     <td>
         <a href="https://eslint.org/docs/rules/no-var" target="_blank">no-var</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>10:14</td>
-    <td class="clr-2">Error</td>
-    <td>Identifier name &#39;i&#39; is too short (&lt; 2).</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/id-length" target="_blank">id-length</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>10:25</td>
-    <td class="clr-2">Error</td>
-    <td>&#39;users&#39; is not defined.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-undef" target="_blank">no-undef</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>10:39</td>
-    <td class="clr-2">Error</td>
-    <td>Unary operator &#39;++&#39; used.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-plusplus" target="_blank">no-plusplus</a>
     </td>
 </tr>
 
@@ -369,37 +243,10 @@
     </td>
 </tr>
 
-<tr style="display:none" class="f-1">
-    <td>11:20</td>
-    <td class="clr-2">Error</td>
-    <td>&#39;users&#39; is not defined.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-undef" target="_blank">no-undef</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>11:41</td>
-    <td class="clr-2">Error</td>
-    <td>&#39;users&#39; is not defined.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-undef" target="_blank">no-undef</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-1">
-    <td>12:8</td>
-    <td class="clr-2">Error</td>
-    <td>Newline required at end of file but not found.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/eol-last" target="_blank">eol-last</a>
-    </td>
-</tr>
-
 <tr class="bg-2" data-group="f-2">
     <th colspan="4">
         [+] /Users/yosuke/git/eslint-plugin-lodash-template-test/lib/sample.html
-        <span>8 problems (8 errors, 0 warnings)</span>
+        <span>4 problems (4 errors, 0 warnings)</span>
     </th>
 </tr>
 <tr style="display:none" class="f-2">
@@ -408,24 +255,6 @@
     <td>Ternary operator used.</td>
     <td>
         <a href="https://eslint.org/docs/rules/no-ternary" target="_blank">no-ternary</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-2">
-    <td>2:37</td>
-    <td class="clr-2">Error</td>
-    <td>No magic number: 2.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-magic-numbers" target="_blank">no-magic-numbers</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-2">
-    <td>2:43</td>
-    <td class="clr-2">Error</td>
-    <td>No magic number: 1.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-magic-numbers" target="_blank">no-magic-numbers</a>
     </td>
 </tr>
 
@@ -453,24 +282,6 @@
     <td>Identifier &#39;from_user&#39; is not in camel case.</td>
     <td>
         <a href="https://eslint.org/docs/rules/camelcase" target="_blank">camelcase</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-2">
-    <td>11:13</td>
-    <td class="clr-2">Error</td>
-    <td>Identifier name &#39;i&#39; is too short (&lt; 2).</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/id-length" target="_blank">id-length</a>
-    </td>
-</tr>
-
-<tr style="display:none" class="f-2">
-    <td>11:38</td>
-    <td class="clr-2">Error</td>
-    <td>Unary operator &#39;++&#39; used.</td>
-    <td>
-        <a href="https://eslint.org/docs/rules/no-plusplus" target="_blank">no-plusplus</a>
     </td>
 </tr>
 
