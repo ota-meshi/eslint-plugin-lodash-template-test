@@ -2,8 +2,14 @@
 
 
 module.exports = {
+  root: true,
   parserOptions: {
       ecmaVersion: 2018,
+      templateSettings: {
+         evaluate:    '(?:(?:<%_)|(?:<%(?!%)))([\\s\\S]*?)[_\\-]?%>',
+         interpolate: '<%-([\\s\\S]*?)[_\\-]?%>',
+         escape:      '<%=([\\s\\S]*?)[_\\-]?%>',
+      },
   },
   extends: [
     // add more generic rulesets here, such as:

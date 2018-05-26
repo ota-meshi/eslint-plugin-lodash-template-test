@@ -4,9 +4,11 @@
   </div>
   <div class="grid_6 omega contents">
     <p><b><a href="/<%= from_user %>"><%= from_user %></a>:</b> <%= text %></p>
-  </div>
+   </div>
 </div>
 
-<% for ( var i = 0; i < users.length; i++ ) { %>
+<% for (
+    var i = 0;
+    i < users.length; i++ ) { %>
   <li><a href="<%= users[i].url %>"><%= users[i].name %></a></li>
-<% } %>
+ <% } %>
