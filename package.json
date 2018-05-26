@@ -19,6 +19,6 @@
   "homepage": "https://github.com/ota-meshi/eslint-plugin-lodash-template-test#readme",
   "devDependencies": {
     "eslint": "^4.19.1",
-    "eslint-plugin-lodash-template": "^0.1.2"
+    "eslint-plugin-lodash-template": "https://github.com/ota-meshi/eslint-plugin-lodash-template#dev/support-of-EJS"
   }
 }
